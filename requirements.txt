@@ -1,0 +1,13 @@
+torch==2.15.0
+torchvision==0.29.2
+scikit-learn==1.5.1
+scikit-image==0.24.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+pillow==10.4.0
+pyarrow==16.1.0
+scipy==1.13.1
+
+# CPU-only 安装（无显卡也能跑完：10 轮训练 2.9 min）
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu

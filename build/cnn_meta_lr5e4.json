@@ -1,0 +1,17 @@
+{
+  "tag": "lr5e4",
+  "epochs": 3,
+  "lr": 0.0005,
+  "batch": 64,
+  "params": 242216,
+  "params_k": 242.2,
+  "total_seconds": 55.7,
+  "use_bn": true,
+  "pool": "gap",
+  "threads": 8,
+  "epoch_seconds": [
+    18.8,
+    18.3,
+    18.7
+  ]
+}

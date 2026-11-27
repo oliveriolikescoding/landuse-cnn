@@ -1,0 +1,7 @@
+{
+  "model": "resnet18 (ImageNet, frozen) + LogisticRegression",
+  "feature_dim": 512,
+  "feature_seconds": 129.7,
+  "n_train": 2800,
+  "note": "主干冻结，只训线性分类头；特征一次前向提取"
+}

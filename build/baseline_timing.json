@@ -1,0 +1,7 @@
+{
+  "feature_seconds": 37.1,
+  "fit_seconds": 0.7,
+  "n_features": 60,
+  "n_train": 2800,
+  "model": "RandomForest(200, random_state=42)"
+}

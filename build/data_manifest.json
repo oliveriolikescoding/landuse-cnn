@@ -1,0 +1,39 @@
+{
+  "dataset": "EuroSAT RGB",
+  "citation": "Helber et al. 2019, IEEE JSTARS",
+  "license": "CC BY 4.0",
+  "crs": "WGS84 (EPSG:4326)",
+  "gsd_m": 10,
+  "patch_px": 64,
+  "classes_used": [
+    "AnnualCrop",
+    "Forest",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "per_class": 500,
+  "seed": 42,
+  "pool_total": 27000,
+  "subset_total": 4000,
+  "split": {
+    "train": 2800,
+    "val": 600,
+    "test": 600
+  },
+  "per_class_pool": {
+    "AnnualCrop": 3000,
+    "Forest": 3000,
+    "Industrial": 2500,
+    "Pasture": 2000,
+    "PermanentCrop": 2500,
+    "Residential": 3000,
+    "River": 2500,
+    "SeaLake": 3000
+  },
+  "mirror": "huggingface.co/datasets/blanchon/EuroSAT_RGB (train/validation/test parquet)",
+  "note": "三份 parquet 合并成池后重新按 seed 42 抽样，未沿用镜像自带划分"
+}

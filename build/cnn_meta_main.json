@@ -1,0 +1,17 @@
+{
+  "tag": "main",
+  "epochs": 3,
+  "lr": 0.001,
+  "batch": 64,
+  "params": 242216,
+  "params_k": 242.2,
+  "total_seconds": 54.1,
+  "use_bn": true,
+  "pool": "gap",
+  "threads": 8,
+  "epoch_seconds": [
+    18.1,
+    17.9,
+    18.1
+  ]
+}

@@ -1,0 +1,15 @@
+# 交付库：data/ 与 build/ 必须进仓库（W10 教训：别把交付物当生成物忽略）
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 原始 parquet 174 MB，不入库；用 docs/data_manifest.md 里的镜像地址重下
+raw/*.parquet
+
+# 模型权重：最终权重留着方便复现指标，中间几组实验的权重不入库
+build/cnn_main.pt
+build/cnn_lr5e4.pt
+build/cnn_long.pt
+build/cnn_long5e4.pt

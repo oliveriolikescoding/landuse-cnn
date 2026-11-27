@@ -1,0 +1,35 @@
+[
+  {
+    "tag": "高置信错误",
+    "path": "data/eurosat_subset/River/River_137.png",
+    "true": "River",
+    "pred": "Industrial",
+    "p_top": 0.991,
+    "cam_peak_xy": [
+      19,
+      51
+    ]
+  },
+  {
+    "tag": "易混对（住宅区与工业区）",
+    "path": "data/eurosat_subset/Residential/Residential_1175.png",
+    "true": "Residential",
+    "pred": "Industrial",
+    "p_top": 0.932,
+    "cam_peak_xy": [
+      12,
+      35
+    ]
+  },
+  {
+    "tag": "边界样本",
+    "path": "data/eurosat_subset/Residential/Residential_98.png",
+    "true": "Residential",
+    "pred": "Pasture",
+    "p_top": 0.249,
+    "cam_peak_xy": [
+      51,
+      51
+    ]
+  }
+]
